@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!--
+Victory Template
+http://www.templatemo.com/tm-507-victory
+-->
+        <title>Tsuki homemade</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+		
+		<link rel="shortcut icon" th:href="@{/dashboard/imagenes/Tsuki.png}" type="image/x-icon" />
+        <link rel="stylesheet" th:href="@{/web/css/bootstrap.min.css}">
+        <link rel="stylesheet" th:href="@{/web/css/bootstrap-theme.min.css}">
+        <link rel="stylesheet" th:href="@{/web/css/fontAwesome.css}">
+        <link rel="stylesheet" th:href="@{/web/css/hero-slider.css}">
+        <link rel="stylesheet" th:href="@{/web/css/owl-carousel.css}">
+        <link rel="stylesheet" th:href="@{/web/css/templatemo-style.css}">
+
+        <link href="https://fonts.googleapis.com/css?family=Spectral:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+
+        <script src="/web/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <a href="#" class="navbar-brand scroll-top"> Tsuki </a>
+            <nav class="navbar navbar-inverse" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!--/.navbar-header-->
+                <div id="main-nav" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a th:href="@{/}"> <i class="bi bi-house-door-fill"></i> Home </a></li>
+                        <li><a th:href="@{/nosotros}"> <i class="bi bi-suit-heart"></i></i> Nosotros </a></li>
+                        <li><a th:href="@{/catalogo}"> <i class="bi bi-journal-bookmark-fill"></i> Catálogo </a></li>
+                        <li><a th:href="@{/contacto}"> <i class="bi bi-chat-dots"></i> Contáctanos </a></li>
+                    </ul>
+                </div>
+                <!--/.navbar-collapse-->
+            </nav>
+            <!--/.navbar-->
+        </div>
+        <!--/.container-->
+    </div>
+    <!--/.header-->
+
+
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <h4>Encuentra aquí la torta de tus sueños</h4>
+                    <h2>Tsuki Homemade</h2>
+                    <p> Corazón y pasión para cada ocasión </p>
+                    <p>Tortas artesanales inspiradas en ti, tus deseos son nuestra prioridad</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="cook-delecious">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-md-offset-1">
+                    <div class="first-image">
+                        <img src="/web/img/torta1.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cook-content">
+                        <h4>Un antojo irresistible</h4>
+                        <div class="contact-content">
+                            <span>Contáctanos:</span> 
+                            <h6> <i class="bi bi-telephone"></i> 936838828  </h6>
+                        </div>
+                        <span>ó</span>
+                        <div class="primary-white-button">
+                            <a th:href="@{/contacto}" class="buttom" data-id="book-table">Envíanos un mensaje</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="second-image">
+                        <img src="/web/img/torta2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item">
+                        <a href="menu.html">
+                        <img src="/web/img/image0.png" alt="Breakfast">
+                        <h4>Tortas</h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item">
+                        <a href="menu.html">
+                        <img src="/web/img/image2.png" alt="Lunch">
+                        <h4>Cakepops</h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item">
+                        <a href="menu.html">
+                        <img src="/web/img/image3.png" alt="Dinner">
+                        <h4>Cupcakes</h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item">
+                        <a href="menu.html">
+                        <img src="/web/img/image4.png" alt="Desserts">
+                        <h4>Postres</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="featured-food">
+        <div class="container">
+            <div class="row">
+                <div class="heading">
+                    <h2>Mini cakes</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="food-item">
+                        <h2>Floral</h2>
+                        <img src="/web/img/cake1.jpeg" alt="">
+                        <div class="price">s/.60</div>
+                        <div class="text-content">
+                            <h4>Mini cake Floral</h4>
+                            <p>Elegante y lleno de vida, decorado con delicadas flores en buttercream con el sabor y relleno que más te guste.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="food-item">
+                        <h2>Lilian</h2>
+                        <img src="/web/img/cake2.jpeg" alt="">
+                        <div class="price">s/.60</div>
+                        <div class="text-content">
+                            <h4>Mini cake Lilian</h4>
+                            <p>Hermosa Dalia roja en buttercream, para esa persona especial, puedes pedirla con el sabor y relleno que más te guste.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="food-item">
+                        <h2>Drip</h2>
+                        <img src="/web/img/cake3.jpeg" alt="">
+                        <div class="price">s/.50</div>
+                        <div class="text-content">
+                            <h4>Mini drip cake</h4>
+                            <p>Decorada en chantilly, con bellos detalles en rosa pastel y coral, pídela en tu sabor favorito.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="our-blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading">
+                        <h2>¡Cada torta es única como tú!</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="blog-post">
+                        <img src="/web/img/cake7.jpeg" alt="">
+                        <div class="right-content">
+                            <h4>Esculturas en fondant</h4>
+                            <br>
+                            <p>¿A quién no le gusta una buena y apetitosa torta?, pero ¿y si se pudiera convertir en uno de nuestros personajes de dibujos favoritos o, incluso en algo que siempre hemos soñado?¿quién ha dicho que una torta debe ser aburrida?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="blog-post">
+                        <img src="/web/img/cake4.jpeg" alt="">
+                        <div class="right-content">
+                            <h4>Buttercream y Fondant</h4>
+                            <br>
+                            <p>Las tortas se pueden cubrir con dos tipos diferentes de coberturas, fondant o buttercream. El buttercream es un glaseado a base de azúcar y mantequilla. Tú eliges el que más te guste.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="blog-post">
+                        <img src="/web/img/cake5.jpeg" alt="">
+                        <div class="right-content">
+                            <h4>Rosas</h4>
+                            <br>
+                            <p>Las rosas y flores naturales también pueden ser parte de tú decoración, siempre serán tendencia ya que proporcionan color, estilo y elegancia para cualquier ocasión.      
+                             </p>
+                            <br>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="blog-post">
+                        <img src="/web/img/cake8.jpeg" alt="">
+                        <div class="right-content">
+                            <h4>Drip cakes</h4>
+                            <br>
+                            <p>Las Drip Cakes siempre serán una de nuestras favoritas, usualmente cubiertas con buttercream y con una ganache chorreando, decorada de la manera que más te guste. </p>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="sign-up">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading">
+                        <h2>Visita nuestras redes sociales</h2>
+                    </div>
+                </div>
+            </div>
+           
+
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                </div>
+                <div class="col-md-4">
+                    <ul class="social-icons">
+                        <li><a rel="nofollow" href="https://www.facebook.com/tsuki_homemade-107558751296293" target="_parent"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/tsuki_homemade/" target="_parent"><i class="bi bi-instagram"></i></a></li>
+                        <li><a href="#"><i class="bi bi-google"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <p>Designed by <em>Tsuki</em></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>window.jQuery || document.write('<script src="/web/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <script src="/web/js/vendor/bootstrap.min.js"></script>
+
+    <script src="/web/js/plugins.js"></script>
+    <script src="/web/js/main.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        // navigation click actions 
+        $('.scroll-link').on('click', function(event){
+            event.preventDefault();
+            var sectionID = $(this).attr("data-id");
+            scrollToID('#' + sectionID, 750);
+        });
+        // scroll to top action
+        $('.scroll-top').on('click', function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop:0}, 'slow');         
+        });
+        // mobile nav toggle
+        $('#nav-toggle').on('click', function (event) {
+            event.preventDefault();
+            $('#main-nav').toggleClass("open");
+        });
+    });
+    // scroll function
+    function scrollToID(id, speed){
+        var offSet = 0;
+        var targetOffset = $(id).offset().top - offSet;
+        var mainNav = $('#main-nav');
+        $('html,body').animate({scrollTop:targetOffset}, speed);
+        if (mainNav.hasClass("open")) {
+            mainNav.css("height", "1px").removeClass("in").addClass("collapse");
+            mainNav.removeClass("open");
+        }
+    }
+    if (typeof console === "undefined") {
+        console = {
+            log: function() { }
+        };
+    }
+    </script>
+</body>
+</html>
